@@ -13,16 +13,14 @@
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 // WiFi Parameters
-const char* ssid = "Kikidoodle_Network";
-const char* pwd  = "Bottle$TORE101!";
+const char* ssid = "SSID";
+const char* pwd  = "PWD";
 
 //NTP Parameters
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "europe.pool.ntp.org");
-//Days of week
-String weekdays[7]={"Sun", "Mon", "Tues", "Wed", "Thurs","Fri","Sat"};
-//Months
-String months[12]={"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
+
+
 uint8_t R = 0;
 uint8_t G = 100;
 uint8_t B = 255;
