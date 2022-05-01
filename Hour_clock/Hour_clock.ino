@@ -6,7 +6,7 @@
 #include <math.h>
 
 // Data out pin
-#define LED_PIN      4
+#define LED_PIN      4  //do not use PIN 2 as this is also the onboard LED, which you want to turn off. 
 #define LED_COUNT    60
 // Declare our NeoPixel strip object:
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
