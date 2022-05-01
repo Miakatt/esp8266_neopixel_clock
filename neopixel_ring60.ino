@@ -13,8 +13,8 @@
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 // WiFi Parameters
-const char* ssid = "Kikidoodle_Network";
-const char* pwd  = "Bottle$TORE101!";
+const char* ssid = "";
+const char* pwd  = "";
 
 //NTP Parameters
 WiFiUDP ntpUDP;
